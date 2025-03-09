@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f1f2f4;
+}
+
+
+/* navbar starts */
+.navbar{
+    position: fixed;
+    top: 0px;
+    max-height: 60px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 2px 10px grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.logo{
+   max-width:150px;
+}
+
+
+.searchbar{
+    max-width: 500px;
+    max-height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #777a7e;
+    background-color: #f0f5ff;
+}
+
+.searchbar input{
+    width: 400px;
+    height: 40px;
+    padding:8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.searchbar i{
+    padding: 15px;
+
+}
+
+.login{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cart{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.seller{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.navbar:hover img{
+    transform: scale(1.05);
+}
+
+/* navbar ends */
+
+
+/* Category section start  */
+
+.product-category{
+    margin: 20px 20px;
+    margin-top: 70px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 10px grey;
+}
+.container-1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* width: 100%; */
+    height: 90px;
+    padding: 10px;
+    margin: 10px;
+ 
+}
+
+.category{
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.category >h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.category:hover img{
+    transform: scale(1.09);
+} 
+
+
+/* Category section end  */
+
+
+/* Banner img start */
+.banner-img{
+    margin: 10px 10px;
+    padding: 2px 10px;
+    padding-top:1px;
+}
+
+.image-gallery img{
+    width: 100%;
+}
+
+.image-gallery:hover img{
+    transform: scale(1.01);
+}
+
+
+/* Banner img end*/
+
+
+/* product section 1  start */
+.products-1{
+    position: relative;
+    width: 80%;
+    height: 320px;
+    margin: 20px 20px;
+    margin-top: 14px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 10px grey;
+    z-index: -1;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.products-1 >h1{
+    padding: 8px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.img1{
+    margin: 5px;
+    padding:12px 10px ;
+    border: 1px solid rgb(208, 204, 204);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.img1 img{
+    height: 165px;
+    
+}
+
+.img1 h4{
+    padding-top: 6px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.img1:hover img{
+    transform: scale(1.05);
+}
+
+/* banner img start */
+.banner img{
+    cursor: pointer;
+    position:absolute;
+    right:-262px;
+    top: -15px;
+    max-height: 350px;
+    width: 260px;
+    z-index: -1;
+}
+/* banner img end */
+
+/* product section 1  end */
+
+
+/* product section 2,3,4  start */
+
+.products-2{
+    /* height: 330px; */
+    margin: 20px 20px;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 10px grey;
+}
+
+.products-2 >h1{
+    padding: 8px;
+    max-width: 300px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly
+} 
+
+.img1 img{
+    max-width: 100%;
+}
+
+/* product section 2,3,4  end */
+
+
+/* offer section start */
+.offers{
+    margin: 20px 20px;
+    margin-top: 8px;
+    background-color: white;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    cursor: pointer;
+}
+
+.grid-container1 img{
+    max-width:100%;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    cursor: pointer;
+    gap: 8px;
+}
+
+.grid-container2 img{
+    max-width: 100%;
+}
+
+/* offer section end */
+
+
+/* product section 5  start */
+
+.product-5{
+    position: relative;
+    width: 37%;
+    /* height: 550px; */
+    margin: 20px 20px;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 10px grey;
+    z-index: -1;
+}
+
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 9px;
+    /* padding-top: 20px; */
+}
+
+.container5 h1{
+    /* width: 100%; */
+    padding: 8px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.img-container1{
+    width: 250px;
+    margin: 5px;
+    padding:12px 10px ;
+    border: 1px solid rgb(208, 204, 204);
+    border-radius: 5px;
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.img-container1 img{
+    width: 90%;
+    padding: 16px;
+    margin: 10px;
+}
+
+
+.img-container1 h4{
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-container1 a{
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(110, 160, 112);
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.img-container1 #d1{
+    padding-top: 30px;
+}
+
+.img-container1:hover img{
+    transform: scale(1.05);
+}
+/* product section 5 end */
+
+
+/* offer section starts */
+
+.grid-container6{
+    position: absolute;
+    left: 572px;
+    top: 3630px;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 8px;
+    width: 22%;
+    height: 705px;
+    margin: 20px 20px;
+    margin-top: 8px;
+    padding: 11px;
+    background-color: white;
+    box-shadow: 1px 2px 10px grey;
+    z-index: -1;
+
+}
+
+.grid-container6 img{
+    width: 310px;
+    justify-content: center;
+
+}
+
+/* product section 6 starts */
+
+.product-6{
+    position: absolute;
+    right: 0px;
+    top: 3630px;
+    width: 37%;
+    margin: 20px 20px;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 10px grey;
+    z-index: -1;
+
+}
+
+.img-container2{
+    width: 250px;
+    margin: 5px;
+    padding:10px 10px ;
+    border: 1px solid rgb(208, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.img-container2 img{
+    width: 84%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.img-container2 h4{
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-container2 a{
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(110, 160, 112);
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* product section 6 end */
+
+
+/* featured brands */
+.offers h1{
+    padding: 8px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* offer starts */
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 5px;
+    padding: 8px;
+}
+
+
+.grid-container3 img{
+    width: 100%;
+    cursor: pointer;
+} 
+
+
+.grid-container4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 8px;
+}
+
+.grid-container4 img{
+    width: 100%;
+    cursor: pointer;
+    padding-top: 10px;
+} 
+
+/* offer ends */
+
+/* footer starts */
+.footer{
+    width: 100%;
+    padding-left: 15px;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 40px 0px;
+
+}
+
+.footer ul h3{
+    color: #777a7e;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.footer ul li{
+    padding: 3px 0px;
+    font-size: 13px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+.vertical-line{
+    background-color:#777a7e;
+    color: #777a7e;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+
+.address{
+    display: flex;
+    font-size: 14px;
+    margin: 40px 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.address h4{
+    color: #777a7e;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.address pre{
+    color: white;
+    font-family: 'Nunito', sans-serif;    
+    font-size: 13px;
+    text-transform: capitalize;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.address span i{
+   padding: 10px;
+   color: white;
+
+}
+
+.last{
+    height: 40px;
+    background-color: #212121;
+}
+
+.last p{
+padding: 10px;
+color: #777a7e;
+text-align: center;
+font-size: 14px;
+text-transform: capitalize;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* footer end */
+
+/* Base styles as provided above */
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    /* Adjust navbar padding and element spacing for smaller desktops */
+    .navbar {
+        padding: 15px;
+        gap: 10px;
+    }
+    .searchbar {
+        max-width: 400px;
+    }
+    .products-1, .product-5, .product-6 {
+        width: 75%;
+    }
+    .grid-container1, .grid-container3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    /* Tablet screens */
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .container-1, .container-2, .container-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .products-1, .product-5, .product-6, .offers, .grid-container6 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .grid-container1, .grid-container3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-container1, .img-container2 {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Small tablets and large smartphones */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .searchbar {
+        max-width: 300px;
+        width: 100%;
+    }
+    .product-category {
+        margin: 15px 0;
+    }
+    .products-1, .product-5, .product-6 {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .grid-container1, .grid-container2, .grid-container3, .grid-container4 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Mobile screens */
+    .navbar {
+        padding: 5px;
+        justify-content: center;
+    }
+    .searchbar input {
+        width: 80%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .address, .vertical-line {
+        margin: 20px 0;
+    }
+    .grid-container1, .grid-container2, .grid-container3 {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .img-container1, .img-container2 {
+        width: 100%;
+    }
+    .last p {
+        font-size: 12px;
+    }
+}

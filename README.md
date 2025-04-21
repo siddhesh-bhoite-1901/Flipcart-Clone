@@ -17,5 +17,4 @@ A static clone of the Flipkart homepage built using only **HTML** and **CSS**. T
 - CSS3
 - Responsive Design using Flexbox & Media Queries
 
-## 📂 Folder Structure
 
